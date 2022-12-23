@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp">
+
+        <ImageView
+            android:id="@+id/back_btn_R"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Create new"
+            android:textSize="36sp"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:text="account"
+            android:textSize="36sp"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/box1" />
+
+        <EditText
+            android:id="@+id/username_editText_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:background="@drawable/box2" />
+
+        <EditText
+            android:id="@+id/email_editText_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:background="@drawable/box2" />
+
+        <EditText
+            android:id="@+id/password_editText_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="12dp"
+            android:background="@drawable/box2" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_btn_R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register!"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppinssemibold"
+        android:background="@drawable/custom_btn1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

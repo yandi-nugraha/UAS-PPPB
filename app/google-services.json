@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1044133642744",
+    "project_id": "fir-news-6bbc5",
+    "storage_bucket": "fir-news-6bbc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044133642744:android:3a5ee19dd895eac0d9560d",
+        "android_client_info": {
+          "package_name": "com.example.uas_pppb1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044133642744-22se2qlamvvc0rssa0vc43qs2ecefe81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq9_-TZNeD584mBq-KlzsAbS8yb3q0C5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044133642744-22se2qlamvvc0rssa0vc43qs2ecefe81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

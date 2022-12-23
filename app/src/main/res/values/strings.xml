@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UAS_PPPB1</string>
+
+    <string-array name="array">
+        <item>Sports</item>
+        <item>Politics</item>
+        <item>Entertainment</item>
+    </string-array>
+</resources>
